@@ -9,18 +9,22 @@ This project aims to help farmers and researchers diagnose common rice diseases 
 
 ├── 📄 rice_disease_colab.ipynb # Google Colab notebook for execution 
 
-├── 📂 model # Model storage 
+├──  model_classification [rice_disease_model_v5.h5] (https://drive.google.com/file/d/1D4MeKgHUp4Ec_gulJQCU7DNvXzPblHPg/view?usp=sharing) 
 
-│ └── best.h5 
+├── model_filter [filter_model.h5]
 
 └── 📄 disease_info.csv # CSV file containing disease information
 
 ## 🚀 How to Use  
+
 1. Clone this repository:  
 
 git clone https://github.com/PondTHAI/rice_disease_diagnosis.git
+
 2. Open `rice_disease_colab.ipynb` in Google Colab  
+
 3. Run all cells and upload an image of a rice leaf  
+
 4. Select the type of recommendations you want to receive  
 
 ## 📊 Supported Rice Diseases
@@ -30,7 +34,7 @@ git clone https://github.com/PondTHAI/rice_disease_diagnosis.git
 - **Sheath blight**  
 
 ## 🔗 Additional Resources
-- [Dataset (Kaggle)]([https://www.kaggle.com/xxxx](https://www.kaggle.com/datasets/rajeshbhattacharjee/rice-diseases-using-cnn-and-svm)) 🙏
+- [Dataset (Kaggle)] (https://www.kaggle.com/datasets/rajeshbhattacharjee/rice-diseases-using-cnn-and-svm) 🙏
 
 ## 🛠 Future Improvements
 - Improve model accuracy  
