@@ -6,9 +6,13 @@ This project aims to help farmers and researchers diagnose common rice diseases 
 
 ## 📂 Project Structure
 📁 rice-disease-diagnosis 
+
 ├── 📄 rice_disease_colab.ipynb # Google Colab notebook for execution 
+
 ├── 📂 model # Model storage 
+
 │ └── best.h5 
+
 └── 📄 disease_info.csv # CSV file containing disease information
 
 ## 🚀 How to Use  
